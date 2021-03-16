@@ -1,0 +1,745 @@
+body
+{
+   background-color: currentColor;  
+   transition: 5s; 
+   overflow-y: auto;
+   box-shadow: -30px 30px 20px rgba(0, 0, 0, 8);
+   display: 12;
+}
+.main
+{
+    top: 0px;
+    animation-name: an;
+   animation-iteration-count: infinite;
+   animation-duration: 60s;
+   box-shadow: -30px 30px 20px rgba(0, 0, 0, 8);
+   height: 1000px;
+}
+.mai
+{
+    height: 700px;
+    background: #161623;
+    /* background-color: #fff; */
+}
+.pa2
+{
+    height: 1000px;
+    background-color: rgb(10, 10, 10);
+}
+.pa2 button
+{
+     background: transparent;
+  border-radius: 25px;
+  box-shadow: -30px 10px 5px rgba(red, green, blue, 0.01);
+  transform: translateX(900px);
+  top: 50px;
+  position: relative;
+  border: 0px solid rgb(158, 154, 154);
+  color: rgb(175, 163, 163);
+  transition: 5s;
+  font-size: 4ex;
+}
+.pa2 p
+{
+    color: rgb(175, 163, 163);
+    text-align: center;
+    position: relative;
+    top: 90px;
+    left: 80px;
+}
+.pa4 button
+{
+     background: transparent;
+  border-radius: 25px;
+  box-shadow: -30px 30px 20px rgba(red, green, blue, 0.01);
+  transform: translateX(900px);
+  top: 50px;
+  position: relative;
+  border: 0px solid rgb(158, 154, 154);
+  color: rgb(175, 163, 163);
+  transition: 5s;
+  font-size: 4ex;
+}
+.pa4 p
+{
+    color: rgb(175, 163, 163);
+    text-align: center;
+    position: relative;
+    top: 90px;
+    left: 80px;
+}
+.card
+{
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(215, 224, 224, 0.068);
+    box-shadow: -30px 20px 20px rgba(0, 195, 255, 0.26);
+    border: 1px solid rgba(0, 195, 255, 0.26);
+    margin-left: 300px;
+    margin-top: 200px;
+    transition: 5s;
+}
+.card h1
+{
+    color: #161623;
+    font-size: 10ex;
+    float: right;
+}
+.card h3
+{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 7ex;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+}
+.card p
+{
+    color: #161623;
+    font-size: 2ex;
+    position: relative;
+left: -60px;
+top: -50px;
+float: left;
+    text-align: center;
+}
+.card h5
+{
+    color: #161623;
+    font-size: 7ex;
+    float: right;
+    position: relative;
+    top: 50px;
+}
+.card1
+{
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(215, 224, 224, 0.068);
+    box-shadow: -30px 20px 20px rgba(0, 195, 255, 0.26);
+    border: 1px solid rgba(0, 195, 255, 0.26);
+    margin-left: 300px;
+    margin-top: 200px;
+    position: relative;
+    top: -700px;
+    transition: 5s;
+    left: 500px;
+}
+.card1 h1
+{
+    color: #161623;
+    font-size: 10ex;
+    float: right;
+}
+.card1 h3
+{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 7ex;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+}
+.card1 p
+{
+    color: #161623;
+    font-size: 2ex;
+    position: relative;
+left: -60px;
+top: -50px;
+float: left;
+    text-align: center;
+}
+.card1 h5
+{
+    color: #161623;
+    font-size: 7ex;
+    float: right;
+    position: relative;
+    top: 50px;
+}
+.card h1:hover
+{
+    transform: translateX(100deg);
+}
+.card2
+{
+    transition: 5s;
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(215, 224, 224, 0.068);
+    box-shadow: -30px 20px 20px rgba(0, 195, 255, 0.26);
+    border: 1px solid rgba(0, 195, 255, 0.26);
+    margin-left: 300px;
+    margin-top: 200px;
+    position: relative;
+    left: 1000px;
+    top: -1400px;
+}
+.card2 h1
+{
+    color: #161623;
+    font-size: 10ex;
+    float: right;
+}
+.card2 h3
+{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 7ex;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+}
+.card2 p
+{
+    color: #161623;
+    font-size: 2ex;
+    position: relative;
+left: -60px;
+top: -50px;
+float: left;
+    text-align: center;
+}
+.card2 h5
+{
+    color: #161623;
+    font-size: 7ex;
+    float: right;
+    position: relative;
+    top: 50px;
+}
+.carda
+{
+    transition: 5s;
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(215, 224, 224, 0.068);
+    box-shadow: -30px 20px 20px rgba(0, 195, 255, 0.26);
+    border: 1px solid rgba(0, 195, 255, 0.26);
+    margin-left: 300px;
+    margin-top: 200px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.carda h1
+{
+    color: #1c1c31;
+    font-size: 10ex;
+    float: right;
+}
+.carda h3
+{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 7ex;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+}
+.carda p
+{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 2ex;
+    position: relative;
+left: 40px;
+top: 50px;
+float: left;
+    text-align: center;
+}
+.carda h5
+{
+    color: #1c1c31;
+    font-size: 7ex;
+    float: right;
+    position: relative;
+    top: 50px;
+}
+.carda1
+{
+    transition: 5s;
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(215, 224, 224, 0.068);
+    box-shadow: -30px 20px 20px rgba(0, 195, 255, 0.26);
+    border: 1px solid rgba(0, 195, 255, 0.26);
+    margin-left: 300px;
+    margin-top: 200px;
+    position: relative;
+    left: 500px;
+    top: -700px;
+}
+.carda1 h1
+{
+    color: #1c1c31;
+    font-size: 10ex;
+    float: right;
+}
+.carda1 h3
+{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 7ex;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+}
+.carda1 p
+{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 2ex;
+    position: relative;
+left: 40px;
+top: 50px;
+float: left;
+    text-align: center;
+}
+.carda1 h5
+{
+    color: #1c1c31;
+    font-size: 7ex;
+    float: right;
+    position: relative;
+    top: 50px;
+}
+.carda2
+{
+    transition: 5s;
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgba(215, 224, 224, 0.068);
+    box-shadow: -30px 20px 20px rgba(0, 195, 255, 0.26);
+    border: 1px solid rgba(0, 195, 255, 0.26);
+    margin-left: 300px;
+    margin-top: 200px;
+    position: relative;
+    left: 1000px;
+    top: -1400px;
+}
+/* .carda h1 :hover */
+/* { */
+    /* top: 0px; */
+/* } */
+.pa3 h1
+{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    left: 600px;
+    font-size: 7ex;
+    /* text-decoration: line-through; */
+}
+.pa3 p
+{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.589);
+    position: relative;
+    left: 600px;
+    transition: 5s;
+}
+.pa3 img
+{
+    position: relative;
+    top: -900px;
+    left: 500px;
+    /* box-shadow: -30px 20px 20px rgba(0, 195, 255, 0.26); */
+}
+.pa5 h1
+{
+    text-align: center;
+    position: relative;
+    color: #fff;
+    left: 0px;
+    font: 7ex;
+    top: 50px;
+    transition: 5s;
+}
+.pa5 p
+{
+    transition: 5s;
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.568);
+    /* margin: 100px; */
+    left: 700px;
+    top: 100px;
+}
+.pa5 img
+{
+    position: relative;
+    left: 550px;
+    top: -700px;
+    border-radius: 200px;
+}
+.pa3 img:hover
+{
+    box-shadow: -30px 20px 20px rgba(0, 195, 255, 0.26);
+}
+.pa5 img:hover
+{
+    box-shadow: -30px 20px 20px rgba(0, 195, 255, 0.26);
+}
+.pa3 h6
+{
+    color: #fff;
+    position: relative;
+    left: 700px;
+    top: 600px;
+    text-align: center;
+    font: 6ex;
+}
+.pa3 li a
+{
+    position: relative;
+    left: 750px;
+    top: -750px;
+    color: #2c2c4d;
+    text-align: center;
+    text-decoration: none;
+    font: 5ex;
+}
+.carda2 h1
+{
+    color: #1c1c31;
+    font-size: 10ex;
+    float: right;
+}
+.carda2 h3
+{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 7ex;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+}
+.carda2 p
+{
+    color: rgba(255, 255, 255, 0.568);
+    font-size: 2ex;
+    position: relative;
+left: 40px;
+top: 50px;
+float: left;
+    text-align: center;
+}
+.carda2 h5
+{
+    color: #1c1c31;
+    font-size: 7ex;
+    float: right;
+    position: relative;
+    top: 50px;
+}
+.pa6 button
+{
+     background: transparent;
+  border-radius: 25px;
+  box-shadow: -30px 30px 20px rgba(red, green, blue, 0.01);
+  transform: translateX(900px);
+  top: 50px;
+  position: relative;
+  border: 0px solid rgb(158, 154, 154);
+  color: rgb(175, 163, 163);
+  transition: 5s;
+  font-size: 4ex;
+}
+.pa6 p
+{
+    color: rgb(175, 163, 163);
+    text-align: center;
+    position: relative;
+    top: 90px;
+    left: 80px;
+}
+/* .lo */
+.pa2 button:hover
+{
+box-shadow: -30px 30px 20px rgba(0, 174, 255, 0.541);
+}
+.pa4 button:hover
+{
+box-shadow: -30px 30px 20px rgba(0, 174, 255, 0.541);
+}
+.pa6 button:hover
+{
+box-shadow: -30px 30px 20px rgba(0, 174, 255, 0.541);
+}
+.pa3
+{
+    height: 1000px;
+    background: #161623;
+}
+.pa4
+{
+    height: 1000px;
+    background-color: rgb(10, 10, 10);
+}
+.pa5
+{
+    height: 1000px;
+    background: #161623;
+}
+.pa6
+{
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+    /* background-image: url('web.jfif'); */
+    /* background-size: cover; */
+}
+/* .lo
+{
+    width: 100%;
+    height: 200;
+    transform: translateY(-2050px);
+    left: -0px;
+    overflow: hidden;
+    position: relative;
+    background-image: url('lo.gif');
+    background-size: cover;
+}  */
+.mai button
+{
+  background: transparent;
+  border-radius: 25px;
+  transform: translateX(800px);
+  /* box-shadow: -30px 30px 20px; */
+  transition: 5s;
+  border: 0px solid rgb(158, 154, 154);
+  color: rgb(175, 163, 163);
+  font-size: 7ex;
+}
+.mai button:hover
+{
+  box-shadow: -30px 30px 20px rgba(0, 174, 255, 0.541);
+  transform: rotateZ(30deg);
+}
+.mai4 button:hover
+{
+  box-shadow: -30px 30px 20px rgba(0, 174, 255, 0.541);
+  transform: rotateZ(500deg);
+}
+.mai h1
+{
+    color: rgb(145, 140, 140);
+    position: relative;
+    text-align: center;
+    font-size: 7ex;
+    top: 60px;
+    border: 0px solid yellowgreen;
+    transition: 5s;
+    background: #161623;
+}
+.mai p
+{
+    color: rgb(145, 140, 140);
+    position: relative;
+    border: 0px solid green;
+    text-align: center;
+    font-size: 3ex;
+    background: #161623;
+    top: 60px;
+    transition: 5s;
+}
+.m1 button
+{
+  background: transparent;
+  border-radius: 25px;
+  /* box-shadow: -30px 30px 20px; */
+  transform: translateX(0px);
+  top: 20px;
+  position: relative;
+  border: 0px solid rgb(158, 154, 154);
+  color: rgb(175, 163, 163);
+  font-size: 7ex;
+  transition: 5s;
+}
+.m3 button
+{
+  background: transparent;
+  border-radius: 25px;
+  /* box-shadow: -30px 30px 20px; */
+  transform: translateX(0px);
+  top: 50px;
+  position: relative;
+  border: 0px solid rgb(158, 154, 154);
+  color: rgb(175, 163, 163);
+  font-size: 7ex;
+  transition: 5s;
+  left: 400px;
+}
+.m2 button
+{
+  background: transparent;
+  border-radius: 25px;
+  /* box-shadow: -30px 30px 20px; */
+  transform: translateX(200px);
+  top: 40px;
+  position: relative;
+  border: 0px solid rgb(158, 154, 154);
+  color: rgb(175, 163, 163);
+  transition: 5s;
+  font-size: 7ex;
+}
+.m4 button
+{
+  background: transparent;
+  border-radius: 25px;
+  /* box-shadow: -30px 30px 20px; */
+  transform: translateX(1400px);
+  top: 50px;
+  position: relative;
+  border: 0px solid rgb(158, 154, 154);
+  color: rgb(175, 163, 163);
+  transition: 5s;
+  font-size: 4ex;
+}
+.main h1
+{
+    color: #fff;
+    font-size: 7ex;
+    text-align: center;
+    transform: translateY(300px);
+    border-radius: 500px;
+    /* transition: 1s; */
+    /* float: left; */
+}
+.main img
+{
+    /* transition: 5s;  */
+ position: relative;
+ transform: translateX(500px);
+ top: 300px;
+ align-items: center;
+ align-content: space-between;
+ border-radius: 500px;
+ transition: 5s;
+ align-items: center;
+ box-shadow: -30px 30px 20px rgba(0, 0, 0, 8);
+ background: transparent;
+}
+.main button
+{
+    transform: translatex(670px);
+    color: #fff;
+    font-size: 6ex;
+    top: 240px;
+    box-shadow: -30px 30px 20px;
+    background: transparent;
+    border-radius: 25px;
+    border: 0.01px solid #fff;
+    /* 750 */
+    position: relative;
+}
+.main1 button
+{
+    transform: translatex(1100px);
+    color: #fff;
+    font-size: 3ex;
+    top: 20px;
+    box-shadow: -30px 30px 20px;
+    background: transparent;
+    border-radius: 25px;
+    border: 0.01px solid #fff;
+    /* 750 */
+    position: relative;
+}
+.main img:hover
+{
+background-image: none;
+background: transparent;
+width: 90px;
+transform: rotate3d(900deg);
+box-shadow: -30px 30px 20px  rgba(0, 174, 255, 0.541);
+}
+::-webkit-scrollbar
+{
+    background: transparent;
+    border-radius: 0px;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 8);
+}
+::-webkit-scrollbar-button
+{
+    background: transparent;
+}
+::-webkit-scrollbar-corner
+{
+    background: transparent;
+}
+.main1 img
+{
+ position: relative;
+ transform: translateX(900px);
+ top: 80px;
+ background: transparent;
+ border-radius: 500px;
+ align-items: center;
+ align-content: space-between;
+}
+@keyframes an
+{
+    20%
+    {
+        background-image: url('code.jfif');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    40%
+    {
+        background-image: url('pc.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%
+    {
+        background-image: url('softwair.jfif');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    60%
+    {
+        background-image: url('web.jfif');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    70%
+    {
+        background-image: url('android.jfif');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    80%
+    {
+        background-image: url('code_l.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    90%
+    {
+        background-image: url('github.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.main p
+{
+    color: #fff;
+    /* transition: 1s; */
+    font-size: 2.00ex;
+    text-align: center;
+    transform: translateY(300px);
+    border-radius: 500px;
+    /* float: left; */
+}
+@media(prefers-color-scheme: dark)
+{
+    
+}
